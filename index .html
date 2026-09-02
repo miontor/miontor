@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MI Ontor</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      text-align: center;
+    }
+
+    header {
+      background: #222;
+      color: white;
+      padding: 25px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+
+    .container {
+      padding: 50px 20px;
+    }
+
+    .box {
+      max-width: 600px;
+      margin: auto;
+      background: white;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    button {
+      padding: 12px 25px;
+      font-size: 17px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      background: #222;
+      color: white;
+    }
+
+    button:hover {
+      background: #444;
+    }
+
+    footer {
+      margin-top: 50px;
+      padding: 20px;
+      background: #222;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>MI Ontor</h1>
+  </header>
+
+  <div class="container">
+    <div class="box">
+      <h2>স্বাগতম আমার ওয়েবসাইটে! 👋</h2>
+
+      <p>
+        এটি আমার প্রথম ওয়েবসাইট।
+        আমি GitHub ব্যবহার করে এই ওয়েবসাইট তৈরি করছি।
+      </p>
+
+      <button onclick="showMessage()">
+        এখানে ক্লিক করুন
+      </button>
+
+      <p id="message"></p>
+    </div>
+  </div>
+
+  <footer>
+    © 2026 MI Ontor
+  </footer>
+
+  <script>
+    function showMessage() {
+      document.getElementById("message").innerHTML =
+        "ধন্যবাদ! আপনি বাটনে ক্লিক করেছেন। ❤️";
+    }
+  </script>
+
+</body>
+</html>
